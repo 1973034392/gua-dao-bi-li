@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	float shoujia = 0;
+	float maijia = 0;
+	float huilv = 0;
+	printf("请输入售价  买入时的价格  一人民币等于多少该货币\n");
+	scanf_s("%f %f %f", &shoujia, &maijia, &huilv);
+	float jieguo = maijia / (shoujia / huilv / 1.15);
+	printf("%f",jieguo);
+    system("pause");
+	return 0;
+}
